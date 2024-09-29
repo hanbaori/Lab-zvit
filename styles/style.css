@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    text-align: center;
+  }
+  .navigation{
+    margin-top: 75px;
+  }
+  .labShowcase{
+    display: flex;
+  }
+  .show{
+    padding-left: 20px;
+    border: 2px solid black;
+    width:84%;
+    border-radius: 5px;
+  }
+  h4 {
+    display: inline-block;
+    margin-top:50px;
+  }  
+  .myProf {
+    position: absolute;
+    right: 20%;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  nav button{
+    margin: 0 15px;
+  }
+  .labs li{
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px 0;
+    width: 160px;
+    height: 75px;
+    background-color: rgb(255, 212, 127);
+    border-radius: 5px;
+  }
+  .labs a{
+    color:black;
+    font-style:normal;
+    text-decoration: none;
+  }
+  button{
+    width: 160px;
+    height: 75px;
+    background-color: rgb(255, 212, 127);
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: rgb(214, 170, 49);
+    color: rgb(26, 20, 107);
+  }
+  .labs li:hover{
+    background-color: rgb(214, 170, 49);
+    color: rgb(26, 20, 107);
+  }
+  ul{
+    width: 15%;
+    list-style-type: none;
+    padding-left:1%;
+  }
+  .descriptionUl{
+    list-style-type: circle;
+  }
+  .imageShow{
+    width: 800px; 
+    height: auto;
+    padding-top: 30px;
+  }
+  .showConcl{
+    padding-top: 15%;
+    border: 2px solid black;
+    width:84%;
+    border-radius: 5px;
+    text-align: center;
+  }
