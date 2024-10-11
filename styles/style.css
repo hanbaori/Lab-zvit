@@ -27,15 +27,20 @@
     justify-content: center;
     text-align: center;
   }
-  nav button{
+  nav button, nav a{
     margin: 0 15px;
+  }
+  nav a{
+    border: 2px solid black;
+    text-align: center;
   }
   .labs li{
     border: 1px solid black;
     text-align: center;
     margin: 5px 0;
-    width: 160px;
-    height: 75px;
+    width: 80%;
+    height: 80px;
+    font-size: 15px;
     background-color: rgb(255, 212, 127);
     border-radius: 5px;
   }
@@ -44,22 +49,18 @@
     font-style:normal;
     text-decoration: none;
   }
-  button{
+  button, nav a{
     width: 160px;
     height: 75px;
     background-color: rgb(255, 212, 127);
     border-radius: 5px;
   }
-  button:hover{
-    background-color: rgb(214, 170, 49);
-    color: rgb(26, 20, 107);
-  }
-  .labs li:hover{
+  button:hover, .labs li:hover, nav a:hover{
     background-color: rgb(214, 170, 49);
     color: rgb(26, 20, 107);
   }
   ul{
-    width: 15%;
+    width: 20%;
     list-style-type: none;
     padding-left:1%;
   }
@@ -78,3 +79,4 @@
     border-radius: 5px;
     text-align: center;
   }
+  
