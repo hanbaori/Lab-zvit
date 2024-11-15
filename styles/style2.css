@@ -34,7 +34,7 @@
     border: 2px solid black;
     text-align: center;
   }
-  .labs li, .labs button{
+  .labs button{
     border: 1px solid black;
     text-align: center;
     margin: 5px 0;
@@ -68,7 +68,7 @@
     list-style-type: circle;
   }
   .imageShow{
-    width: 800px; 
+    width: 600px; 
     height: auto;
     padding-top: 30px;
   }
